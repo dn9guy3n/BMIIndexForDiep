@@ -33,17 +33,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private String getBMIStatus(float bmiIndex) {
         if (bmiIndex < 18.5) {
-            return "Gay";
+            return "Thinness";
         } else if (bmiIndex < 24.9) {
-            return "Binh Thuong";
+            return "Normal";
         } else if (bmiIndex < 29.9) {
-            return "Hoi Beo";
+            return "Overweight";
         } else if (bmiIndex < 34.9) {
-            return "Beo Phi Cap Do 1";
+            return "Obese Class I";
         } else if (bmiIndex < 39.9) {
-            return "Beo Phi Cap Do 2";
+            return "Obese Class II";
         } else {
-            return "Beo Phi Cap Do 3";
+            return "Obese Class III";
         }
     }
 
